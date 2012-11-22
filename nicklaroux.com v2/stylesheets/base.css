@@ -61,7 +61,12 @@
 
 /* #Typography
 ================================================== */
-	h1, h2, h3, h4, h5, h6 {
+	h1 {
+		color: #181818;
+		font-family: Arial, sans-serif;
+		font-weight: bold; }
+	}
+	h2, h3, h4, h5, h6 {
 		color: #181818;
 		font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-weight: normal; }

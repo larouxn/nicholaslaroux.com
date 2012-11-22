@@ -19,19 +19,28 @@
 
 /*HEADER*/
 header {
-    font-family: sans-serif;
+    font-family: arial;
+    font-weight: bold;
+    margin-top: 40px;
 }
 
 /*NAV*/
 nav {
-    font-size: 1.4em;
+    font-size: 1.3em;
+}
+
+nav ul {
+	margin-top: 60px;
 }
 
 nav ul li {
     display: inline;
-    padding-left: 5px;
+    padding-left: 3px;
     /*Box color transitions*/
-    -webkit-transition: background .6s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+nav li:hover a{
+	-webkit-transition: background .6s cubic-bezier(0.075, 0.82, 0.165, 1);
     -moz-transition: background .6s cubic-bezier(0.075, 0.82, 0.165, 1);
     -ms-transition: background .6s cubic-bezier(0.075, 0.82, 0.165, 1);
     transition: background .6s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -41,19 +50,19 @@ nav li:nth-child(1):hover a{
     background: #c92227;
 }
 
-nav li:nth-child(2):hover a{
+nav li:nth-child(3):hover a{
     background: #E8B851;
 }
 
-nav li:nth-child(3):hover a{
+nav li:nth-child(5):hover a{
     background: #22c955;
 }
 
-nav li:nth-child(4):hover a{
+nav li:nth-child(7):hover a{
     background: #22c9a8;
 }
     
-nav li:nth-child(5):hover a{
+nav li:nth-child(9):hover a{
     background: #2297c9;
 }
 
