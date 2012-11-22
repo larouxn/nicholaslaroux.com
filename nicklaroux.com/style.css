@@ -98,7 +98,7 @@ hr {
     padding: 15px 0px;
     text-align: right;
     list-style-type: none;
-    /* Boxes around nav links for color below */
+    /*Box color transitions*/
     -webkit-transition: background .6s cubic-bezier(0.075, 0.82, 0.165, 1);
     -moz-transition: background .6s cubic-bezier(0.075, 0.82, 0.165, 1);
     -ms-transition: background .6s cubic-bezier(0.075, 0.82, 0.165, 1);
