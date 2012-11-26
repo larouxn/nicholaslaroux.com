@@ -16,7 +16,6 @@
 
 /* #Site Styles
 ================================================== */
-
 /*HEADER*/
 header {
     font-family: arial;
@@ -39,6 +38,7 @@ nav ul li {
     /*Box color transitions*/
 }
 
+/* Color Box with transition
 nav li:hover a{
 	-webkit-transition: background .6s cubic-bezier(0.075, 0.82, 0.165, 1);
     -moz-transition: background .6s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -66,20 +66,38 @@ nav li:nth-child(9):hover a{
     background: #2297c9;
 }
 
+end color box transition*/
+
+/*SECTION*/
+section {
+	font-size: 110%;
+}
+
 /*FOOTER*/
 footer {
 	clear: both;
 	position: relative;
 	z-index: 10;
-	height: 1em;
-	margin-top: -1em;
+	height: 2em;
+	/*margin-top: -1.5em;*/
 	text-align: center;
+	font-size: 110%;
+	color: white;
+	background-color: #312e2e;
+	padding-top: 2%;
+}
+
+span.highlight2 {
+	color: white;
+}
+
+span.highlight2:hover {
+	color: #0099cc;
 }
 
 footer img {
-	
+		
 }
-
 
 /*GENERAL PURPOSE*/
 a {
@@ -92,6 +110,14 @@ a {
 
 .right {
     float: right;
+}
+
+span.center {
+	text-align: center;
+}
+
+span.highlight {
+	color: #0099cc;
 }
 
 span.tab {
