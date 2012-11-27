@@ -1,6 +1,5 @@
-Projects that involve:
+My personal web oriented projects:
 
-HTML
-Javscript
-Ruby on Rails
-etc.
+Websites
+Web Games
+Etc.
