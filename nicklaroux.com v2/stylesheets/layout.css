@@ -87,7 +87,7 @@ footer {
 	padding-top: 2%;
 }
 
-span.highlight2 {
+span.white {
 	color: white;
 }
 
@@ -116,8 +116,28 @@ span.center {
 	text-align: center;
 }
 
-span.highlight {
+span.blue {
 	color: #0099cc;
+}
+
+span.green {
+	color: #16dc24;
+}
+
+span.purple {
+	color: #993CF3;
+}
+
+span.purple a {
+	color: #993CF3;
+}
+
+span.purple a:hover {
+	color: #8513f7;
+}
+
+span.red {
+	color: #ff0000;
 }
 
 span.tab {
