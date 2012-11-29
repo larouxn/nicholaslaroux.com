@@ -1,45 +1,128 @@
 <!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <title>Nicholas J. La Roux</title>
-            <meta charset="utf-8">
-            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-            <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
-            <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:600,700,600italic|Montserrat+Subrayada' rel='stylesheet' type='text/css'>
-            <link rel="stylesheet" type="text/css" href="style.css">
-        </head>
-        <body>
-            <div id="name">
-            <h1><a href="index.html">Nicholas J. La Roux</a></h1>
-            </div>
-            <ul id="navbar">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="aboutme.html">About Me</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="mailto:larouxn@gmail.com?subject=Contact%20from%20Website">Email Me</a></li>
-            </ul>
-            <div id="content">
-            Portfolio stuff.
-            </div>
-            <div id="footer">
-                <hr>
-                    <div id="badge">
-                        <a href="http://www.w3.org/html/logo/">
-                        <img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3.png" width="44" height="22" alt="HTML5 & CSS3 Valid" title="HTML5 & CSS3 Valid">
-                        </a>
-                    </div>
-                    
-                <img src="media/user.png" alt="user"><span class="tab"></span>Nicholas J. La Roux
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Nicholas La Roux</title>
+	<meta name="description" content="The personal site of Nicholas La Roux">
+	<meta name="author" content="Nicholas La Roux">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+</head>
+<body>
+
+
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<!-- Delete everything in this .container and get started on your own site! -->
+
+	<div class="container">
+	
+		<!--NAME-->
+		<div class="eight columns left">
+			<header>
+				<h1 class="remove-bottom">
+				<a href="index.html">
+					Nicholas La Roux
+				</a>
+				</h1>
+			</header>
+		</div><!--ends eight-->
+		
+		<!--NAV-->
+		<div class="eight columns left">
+			<nav>
+				<ul class="remove-bottom">
+					<li><a href="index.html">Home</a></li>
+					<li>|</li>
+					<li><a href="aboutme.html">About Me</a></li>
+					<li>|</li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li>|</li>
+					<li><a href="resume.html">Resume</a></li>
+					<li>|</li>
+					<li><a href="mailto:larouxn@gmail.com">Say Hello!</a></li>
+				</ul>
+			</nav>
+		</div><!-- ends eight-->
+		
+		<hr>
+		
+		<!--CONTENT-->
+		<div class="sixteen columns">
+			<section>
+				<span class="left">
+					<h2>
+						My Work
+					</h2>
+					<h3>
+						I am currently working on many different projects.<br>
+						None are 100% done yet, even this site is still 'in the works'.
+						<br><br>
+						Projects: <span class="blue">nicklaroux.com</span>,
+						<span class="red">Marist Trading Post</span>,
+						<span class="green">JavaScript Platformer Game</span>,
+						and website for my <span class="purple">development team</span>.
+						<br><br>
+						Speaking of my dev team, I am the head of a small team of my college friends.
+						We call ourselves the
+						<span class="purple">Carrot Island Development Team</span>.
+					</h3>
+				</span>
+			</section>
+		</div><!--end sixteen-->
+		
+		
+		
+		<!--FOOTER-->
+		<div class="sixteen columns">
+			<footer>
+				<img src="images/user.png" alt="user"><span class="tab"></span>Nicholas J. La Roux
                 
                 <span class="tab"></span>
                 
-                <a href="mailto:larouxn@gmail.com?subject=Contact%20from%20Website">
-                <img src="media/mail.png" alt="email"><span class="tab"></span>larouxn@gmail.com</a>
+                <a href="mailto:larouxn@gmail.com">
+                <img src="images/email.png" alt="email"><span class="tab"></span>
+                <span class="white">Say Hello!</span></a>
                 
                 <span class="tab"></span>
                 
-                <img src="media/map.png" alt="map"><span class="tab"></span>Marist College, Poughkeepsie, NY
-            </div>
-        </body>
-    </html>
+                <img src="images/home.png" alt="home"><span class="tab"></span>Marist College, Poughkeepsie, NY
+
+			</footer>
+		</div><!--end sixteen-->
+
+	</div><!-- container -->
+
+
+<!-- End Document
+================================================== -->
+</body>
+</html>
