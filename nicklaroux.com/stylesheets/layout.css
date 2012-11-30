@@ -124,6 +124,14 @@ span.green {
 	color: #16dc24;
 }
 
+span.green a {
+	color: #16dc24;
+}
+
+span.green a:hover {
+	color: #12c41e;
+}
+
 span.purple {
 	color: #993CF3;
 }
