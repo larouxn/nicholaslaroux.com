@@ -110,6 +110,7 @@ a {
 
 .right {
     float: right;
+    text-align: right;
 }
 
 span.center {
@@ -169,7 +170,7 @@ span.red a:hover {
 }
 
 span.tab {
-		padding-left: 1em;
+		padding-left: 2em;
 }
 
 /* #Page Styles
