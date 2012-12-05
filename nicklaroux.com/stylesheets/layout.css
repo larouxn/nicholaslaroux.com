@@ -116,8 +116,8 @@ span.center {
 	text-align: center;
 }
 
-span.shadow {
-    
+span.bold {
+    font-weight: bold;
 }
 
 span.blue {

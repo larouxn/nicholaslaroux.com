@@ -150,6 +150,7 @@
 	  -moz-border-radius: 3px;
 	  -webkit-border-radius: 3px;
 	  border-radius: 3px;
+	  vertical-align: middle;
 	  color: #444;
 	  display: inline-block;
 	  font-size: 14px;
