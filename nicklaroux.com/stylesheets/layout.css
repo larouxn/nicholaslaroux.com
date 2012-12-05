@@ -116,8 +116,20 @@ span.center {
 	text-align: center;
 }
 
+span.shadow {
+    
+}
+
 span.blue {
 	color: #0099cc;
+}
+
+span.blue a {
+	color: #0099cc;
+}
+
+span.blue a:hover {
+	color: #007da6;
 }
 
 span.green {
@@ -146,6 +158,14 @@ span.purple a:hover {
 
 span.red {
 	color: #ff0000;
+}
+
+span.red a {
+	color: #ff0000;
+}
+
+span.red a:hover {
+	color: #c40000;
 }
 
 span.tab {
