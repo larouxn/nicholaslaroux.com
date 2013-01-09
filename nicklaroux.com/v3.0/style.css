@@ -1,0 +1,10 @@
+body {
+    background-image: url('media/bgtile.png');
+}
+
+.content {
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+}
