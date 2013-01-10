@@ -75,28 +75,15 @@ section {
 
 /*FOOTER*/
 footer {
-	clear: both;
-	position: relative;
-	z-index: 10;
-	height: 5%;
-	/*margin-top: -1.5em;*/
-	text-align: center;
-	font-size: 110%;
-	color: white;
-	background-color: #312e2e;
-	padding-top: 2%;
-}
-
-span.white {
-	color: white;
-}
-
-span.white:hover {
-	color: #C54D57;
-}
-
-footer img {
-		
+    clear: both;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    font-size: 110%;
+    color: white;
+    background-color: #312e2e;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 /*GENERAL PURPOSE*/
@@ -114,66 +101,16 @@ a {
 }
 
 .center {
-	text-align: center;
-	margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
 }
 
 span.bold {
     font-weight: bold;
 }
 
-/*UNUSED COLOR TAGS
-span.blue {
-	color: #0099cc;
-}
-
-span.blue a {
-	color: #0099cc;
-}
-
-span.blue a:hover {
-	color: #007da6;
-}
-
-span.green {
-	color: #16dc24;
-}
-
-span.green a {
-	color: #16dc24;
-}
-
-span.green a:hover {
-	color: #12c41e;
-}
-
-span.purple {
-	color: #993CF3;
-}
-
-span.purple a {
-	color: #993CF3;
-}
-
-span.purple a:hover {
-	color: #8513f7;
-}
-
-span.red {
-	color: #ff0000;
-}
-
-span.red a {
-	color: #ff0000;
-}
-
-span.red a:hover {
-	color: #c40000;
-}
-*/
-
 span.tab {
-	padding-left: 2em;
+    padding-left: 2em;
 }
 
 /* #Page Styles
