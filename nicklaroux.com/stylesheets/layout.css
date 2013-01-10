@@ -18,18 +18,15 @@
 ================================================== */
 /*HEADER*/
 header {
-    font-family: arial;
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 /*NAV*/
 nav {
     font-size: 1.3em;
-}
-
-nav ul {
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
 nav ul li {
@@ -70,7 +67,7 @@ end color box transition*/
 
 /*SECTION*/
 section {
-	font-size: 90%;
+	/*Nothing necessary*/
 }
 
 /*FOOTER*/
@@ -116,11 +113,9 @@ span.tab {
 /* #Page Styles
 ================================================== */
 
-/*
 .container {
-	background: url(../images/bg_tile.jpg) repeat;
+    margin-top: 40px;
 }
-*/
 
 /* #Media Queries
 ================================================== */
