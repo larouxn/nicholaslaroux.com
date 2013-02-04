@@ -1,5 +1,1 @@
-My personal web oriented projects:
-
-Websites
-Web Games
-Etc.
+My personal site.
