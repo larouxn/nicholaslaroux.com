@@ -66,7 +66,7 @@ end color box transition*/
 
 /*FOOTER*/
 .push {
-    height: 1em;
+    height: 4em;
 }
 
 /* For portfolio and resume */
@@ -80,7 +80,7 @@ end color box transition*/
 
 /* For home page */
 footer {
-    height: 1em;
+    height: 4em;
     clear: both;
   	display: block;
     position: absolute;
@@ -138,11 +138,12 @@ html, body {
 }
 
 .container {
-    margin-top: 40px;
+    /*margin-top: 40px;*/
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -1em;
+    margin-top: 40px;
+    margin-bottom: -4em;
 }
 
 * {
