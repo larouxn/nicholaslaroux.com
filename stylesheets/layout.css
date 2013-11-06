@@ -6,21 +6,19 @@
 * http://www.opensource.org/licenses/mit-license.php
 * 6/20/2012
 */
-
 /* Table of Content
 ==================================================
-	#Site Styles
+    #Site Styles
 	#Page Styles
 	#Media Queries
 	#Font-Face */
-
 /* #Site Styles
 ================================================== */
 /*HEADER*/
 header {
-    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    /* margin-top: 40px; */
+    font-family: HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+/* margin-top: 40px; */
 }
 
 /*NAV*/
@@ -63,41 +61,26 @@ nav li:nth-child(9):hover a{
     background: #2297c9;
 }
 end color box transition*/
-
 /*FOOTER*/
-.push {
-    height: 4em;
-}
-
-/* For portfolio and resume */
-.footer {
-    width: 100%;
-    z-index: 10;
-    text-align: center;
-    font-size: 110%;
-    padding-bottom: 1%;
-}
-
-/* For home page */
 footer {
-    height: 4em;
     clear: both;
-  	display: block;
-    position: absolute;
-    bottom: 0;
-    padding-bottom: 7%;
-    width: 100%;
+    position: relative;
     z-index: 10;
     text-align: center;
     font-size: 110%;
-    /*color: white;
-    background-color: #312e2e;
-    padding-top: 1%; */
+/*color: white;
+    background-color: #312e2e;*/
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 /*GENERAL PURPOSE*/
 a {
     text-decoration: none;
+}
+
+li {
+  font-size: 1.1em;
 }
 
 .left {
@@ -119,7 +102,7 @@ a {
 }
 
 span.bold {
-    font-weight: bold;
+    font-weight: 700;
 }
 
 span.tab {
@@ -133,12 +116,12 @@ span.space {
 
 /* #Page Styles
 ================================================== */
-html, body {
-  height: 100%;
+html,body {
+    height: 100%;
 }
 
 .container {
-    /*margin-top: 40px;*/
+/*margin-top: 40px;*/
     min-height: 100%;
     height: auto !important;
     height: 100%;
@@ -147,27 +130,40 @@ html, body {
 }
 
 * {
-  margin: 0;
+    margin: 0;
 }
 
 /* #Media Queries
 ================================================== */
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and max-width 959px {
+    
 
-	/* Smaller than standard 960 (devices and browsers) */
-	@media only screen and (max-width: 959px) {}
+}
 
-	/* Tablet Portrait size to standard 960 (devices and browsers) */
-	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and min-width 768px and max-width 959px {
+    
 
-	/* All Mobile Sizes (devices and browser) */
-	@media only screen and (max-width: 767px) {}
+}
 
-	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and max-width 767px {
+    
 
-	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-	@media only screen and (max-width: 479px) {}
+}
 
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and min-width 480px and max-width 767px {
+    
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and max-width 479px {
+    
+
+}
 
 /* #Font-Face
 ================================================== */
@@ -175,7 +171,6 @@ html, body {
 		Just create a "fonts" folder at the root,
 		copy your FontName into code below and remove
 		comment brackets */
-
 /*	@font-face {
 	    font-family: 'FontName';
 	    src: url('../fonts/FontName.eot');
