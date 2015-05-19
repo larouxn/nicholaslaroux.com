@@ -4,6 +4,24 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+span.skills > a {
+  color: white;
+}
+
+span.skills > a:hover {
+  color: #e0e0e0;
+  text-decoration: none;
+}
+
+/*.white {
+  color: white;
+}
+
+a.white:hover {
+  color: #e0e0e0;
+  text-decoration: none;
+}*/
+
 body {
     overflow-x: hidden;
 }
