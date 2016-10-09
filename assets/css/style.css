@@ -1,11 +1,11 @@
 a {
-	color: #009688;
+	color: #BE8C5B;
 }
 body {
 	background-color: #eee;
 }
 #top-bar {
-	background: #009688;
+	background: #46E4F7;
 	height:200px;
 	float:left;
 	width:100%;
@@ -74,7 +74,7 @@ i {
 	background: #c8c8c8;
 }
 .progress .progress-bar, .progress .progress-bar-default {
-	background-color: #009688;
+	background-color: #BE8C5B;
 }
 .progress-bar {
 	box-shadow: none;
@@ -83,7 +83,7 @@ i {
 	height: 100%;
 	font-size: 12px;
 	line-height: 20px;
-	color: #009688;
+	color: #BE8C5B;
 	text-align: center;
 	background-color: #337ab7;
 	-webkit-transition: width .6s ease;
