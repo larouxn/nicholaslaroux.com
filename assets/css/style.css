@@ -8,6 +8,7 @@ a {
 }
 
 body {
+    color: black;
     background-color: #eee
 }
 
@@ -31,10 +32,6 @@ body {
     z-index: 9;
     margin-top: -120px;
     margin-bottom: 50px
-}
-
-.grey-link {
-    color: #555
 }
 
 img.responsive-img {
@@ -164,4 +161,24 @@ i {
 
 .card .card-image span.card-title i {
     cursor: pointer
+}
+
+/* Overrides for Dark Mode. */
+@media (prefers-color-scheme: dark) {
+    body {
+        color: white;
+        background: black;
+    }
+
+    p {
+        color: white;
+    }
+
+    div .content {
+        background: black;
+    }
+
+    #top-bar {
+        background: black;
+    }
 }
