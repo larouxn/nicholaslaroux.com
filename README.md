@@ -1,4 +1,4 @@
-nicklaroux.com
+nicholaslaroux.com
 ==============
 
 My personal site.
