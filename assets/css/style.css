@@ -116,7 +116,7 @@ i {
     cursor: pointer
 }
 
-/* Overrides for Dark Mode. */
+/* Dark Mode overrides */
 @media (prefers-color-scheme: dark) {
     body {
         color: white;
