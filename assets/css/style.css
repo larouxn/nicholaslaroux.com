@@ -116,6 +116,17 @@ i {
     cursor: pointer
 }
 
+/* Mobile overrides */
+@media (max-width: 600px) {
+    body {
+        text-align: center
+    }
+
+    .right-side .block {
+        margin-left: 0px
+    }
+}
+
 /* Dark Mode overrides */
 @media (prefers-color-scheme: dark) {
     body {
