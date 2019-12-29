@@ -1,5 +1,4 @@
-.footer,
-.progress-bar {
+.footer {
     text-align: center
 }
 
@@ -80,52 +79,6 @@ i {
 
 .helping-text {
     margin: 0
-}
-
-.progress {
-    height: 4px;
-    border-radius: 0;
-    box-shadow: none;
-    background: #c8c8c8
-}
-
-.progress .progress-bar,
-.progress .progress-bar-default {
-    background-color: #FB8C00
-}
-
-.progress-bar {
-    box-shadow: none;
-    float: left;
-    width: 50%;
-    height: 100%;
-    font-size: 12px;
-    line-height: 20px;
-    color: #FB8C00;
-    background-color: #337ab7;
-    -webkit-transition: width .6s ease;
-    -o-transition: width .6s ease;
-    transition: width .6s ease
-}
-
-.ninety {
-    width: 90%
-}
-
-.eighty {
-    width: 80%
-}
-
-.seventy {
-    width: 70%
-}
-
-.sixty {
-    width: 60%
-}
-
-.fifty {
-    width: 50%
 }
 
 .card .card-image img {
